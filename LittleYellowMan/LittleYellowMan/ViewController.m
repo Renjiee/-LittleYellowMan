@@ -1,9 +1,7 @@
 //
 //  ViewController.m
-//  xiaoHuangRen
 //
-//  Created by CFS on 2017/7/6.
-//  Copyright © 2017年 CFS. All rights reserved.
+//
 //
 
 #import "ViewController.h"
@@ -66,7 +64,7 @@
 }
 
 - (void)SetCoreMotion{
-    //  设置重力并纪录
+    // 设置重力并纪录
     UIGravityBehavior *gravity = [[UIGravityBehavior alloc] init];
     gravity.magnitude = 1;
     [gravity addItem:self.leftEye];
@@ -74,20 +72,20 @@
     [self.animator addBehavior:gravity];
     self.gravity = gravity;
     
-    //设置摩擦力
+    // 设置摩擦力
     UICollisionBehavior *collision = [[UICollisionBehavior alloc] init];
     [collision addItem:self.leftEye];
     [collision addItem:self.rightEye];
     UIDynamicItemBehavior *item = [[UIDynamicItemBehavior alloc] initWithItems:@[self.leftEye, self.rightEye]];
-    //摩擦力
+    // 摩擦力
     item.friction = 100;
     [self.animator addBehavior:item];
-    // 3.开始仿真
+    // 开始仿真
     [self.animator addBehavior:gravity];
     [self.animator addBehavior:collision];
     
     
-    //    画出边界
+    // 画出边界
     UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:
                           CGRectMake(CURRENT_SIZE(128),CURRENT_SIZE(280), CURRENT_SIZE(50), CURRENT_SIZE(45))];
     
@@ -101,7 +99,7 @@
 
 - (void)SetAccelerometer{
     CMMotionManager *motionManager = [[CMMotionManager alloc]init];
-    motionManager.accelerometerUpdateInterval = 0.01; // 告诉manager，更新频率是100Hz
+    motionManager.accelerometerUpdateInterval = 0.01; // 更新频率是100Hz
     [motionManager startAccelerometerUpdatesToQueue:[NSOperationQueue currentQueue] withHandler:^(CMAccelerometerData * _Nullable accelerometerData, NSError * _Nullable error) {
         CMAccelerometerData *newestAccel = motionManager.accelerometerData;
         double accelerationX = newestAccel.acceleration.x;
