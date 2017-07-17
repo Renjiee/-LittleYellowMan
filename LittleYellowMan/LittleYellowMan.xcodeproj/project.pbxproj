@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CDC556D1F170F7000BA562F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC556C1F170F7000BA562F /* main.m */; };
+		5CDC55701F170F7000BA562F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC556F1F170F7000BA562F /* AppDelegate.m */; };
+		5CDC55731F170F7000BA562F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC55721F170F7000BA562F /* ViewController.m */; };
+		5CDC55761F170F7000BA562F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDC55741F170F7000BA562F /* Main.storyboard */; };
+		5CDC55781F170F7000BA562F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CDC55771F170F7000BA562F /* Assets.xcassets */; };
+		5CDC557B1F170F7000BA562F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDC55791F170F7000BA562F /* LaunchScreen.storyboard */; };
+		5CDC55861F170F7000BA562F /* LittleYellowManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC55851F170F7000BA562F /* LittleYellowManTests.m */; };
+		5CDC55911F170F7000BA562F /* LittleYellowManUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDC55901F170F7000BA562F /* LittleYellowManUITests.m */; };
+		5CECEDD91F186D9500D9F8BD /* EyesImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECEDD81F186D9500D9F8BD /* EyesImage.m */; };
+		5CECEDDC1F186E5D00D9F8BD /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECEDDB1F186E5D00D9F8BD /* FaceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CDC55821F170F7000BA562F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDC55601F170F7000BA562F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDC55671F170F7000BA562F;
+			remoteInfo = LittleYellowMan;
+		};
+		5CDC558D1F170F7000BA562F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CDC55601F170F7000BA562F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CDC55671F170F7000BA562F;
+			remoteInfo = LittleYellowMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CDC55681F170F7000BA562F /* LittleYellowMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleYellowMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDC556C1F170F7000BA562F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CDC556E1F170F7000BA562F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CDC556F1F170F7000BA562F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CDC55711F170F7000BA562F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CDC55721F170F7000BA562F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CDC55751F170F7000BA562F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CDC55771F170F7000BA562F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CDC557A1F170F7000BA562F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CDC557C1F170F7000BA562F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDC55811F170F7000BA562F /* LittleYellowManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleYellowManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDC55851F170F7000BA562F /* LittleYellowManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleYellowManTests.m; sourceTree = "<group>"; };
+		5CDC55871F170F7000BA562F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDC558C1F170F7000BA562F /* LittleYellowManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleYellowManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDC55901F170F7000BA562F /* LittleYellowManUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleYellowManUITests.m; sourceTree = "<group>"; };
+		5CDC55921F170F7000BA562F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CECEDD71F186D9500D9F8BD /* EyesImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyesImage.h; sourceTree = "<group>"; };
+		5CECEDD81F186D9500D9F8BD /* EyesImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyesImage.m; sourceTree = "<group>"; };
+		5CECEDDA1F186E5D00D9F8BD /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		5CECEDDB1F186E5D00D9F8BD /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CDC55651F170F7000BA562F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDC557E1F170F7000BA562F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDC55891F170F7000BA562F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CDC555F1F170F7000BA562F = {
+			isa = PBXGroup;
+			children = (
+				5CDC556A1F170F7000BA562F /* LittleYellowMan */,
+				5CDC55841F170F7000BA562F /* LittleYellowManTests */,
+				5CDC558F1F170F7000BA562F /* LittleYellowManUITests */,
+				5CDC55691F170F7000BA562F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CDC55691F170F7000BA562F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC55681F170F7000BA562F /* LittleYellowMan.app */,
+				5CDC55811F170F7000BA562F /* LittleYellowManTests.xctest */,
+				5CDC558C1F170F7000BA562F /* LittleYellowManUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CDC556A1F170F7000BA562F /* LittleYellowMan */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC556E1F170F7000BA562F /* AppDelegate.h */,
+				5CDC556F1F170F7000BA562F /* AppDelegate.m */,
+				5CDC55711F170F7000BA562F /* ViewController.h */,
+				5CDC55721F170F7000BA562F /* ViewController.m */,
+				5CECEDDA1F186E5D00D9F8BD /* FaceView.h */,
+				5CECEDDB1F186E5D00D9F8BD /* FaceView.m */,
+				5CECEDD71F186D9500D9F8BD /* EyesImage.h */,
+				5CECEDD81F186D9500D9F8BD /* EyesImage.m */,
+				5CDC55741F170F7000BA562F /* Main.storyboard */,
+				5CDC55771F170F7000BA562F /* Assets.xcassets */,
+				5CDC55791F170F7000BA562F /* LaunchScreen.storyboard */,
+				5CDC557C1F170F7000BA562F /* Info.plist */,
+				5CDC556B1F170F7000BA562F /* Supporting Files */,
+			);
+			path = LittleYellowMan;
+			sourceTree = "<group>";
+		};
+		5CDC556B1F170F7000BA562F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC556C1F170F7000BA562F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CDC55841F170F7000BA562F /* LittleYellowManTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC55851F170F7000BA562F /* LittleYellowManTests.m */,
+				5CDC55871F170F7000BA562F /* Info.plist */,
+			);
+			path = LittleYellowManTests;
+			sourceTree = "<group>";
+		};
+		5CDC558F1F170F7000BA562F /* LittleYellowManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CDC55901F170F7000BA562F /* LittleYellowManUITests.m */,
+				5CDC55921F170F7000BA562F /* Info.plist */,
+			);
+			path = LittleYellowManUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CDC55671F170F7000BA562F /* LittleYellowMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDC55951F170F7000BA562F /* Build configuration list for PBXNativeTarget "LittleYellowMan" */;
+			buildPhases = (
+				5CDC55641F170F7000BA562F /* Sources */,
+				5CDC55651F170F7000BA562F /* Frameworks */,
+				5CDC55661F170F7000BA562F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleYellowMan;
+			productName = LittleYellowMan;
+			productReference = 5CDC55681F170F7000BA562F /* LittleYellowMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CDC55801F170F7000BA562F /* LittleYellowManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDC55981F170F7000BA562F /* Build configuration list for PBXNativeTarget "LittleYellowManTests" */;
+			buildPhases = (
+				5CDC557D1F170F7000BA562F /* Sources */,
+				5CDC557E1F170F7000BA562F /* Frameworks */,
+				5CDC557F1F170F7000BA562F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDC55831F170F7000BA562F /* PBXTargetDependency */,
+			);
+			name = LittleYellowManTests;
+			productName = LittleYellowManTests;
+			productReference = 5CDC55811F170F7000BA562F /* LittleYellowManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CDC558B1F170F7000BA562F /* LittleYellowManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CDC559B1F170F7000BA562F /* Build configuration list for PBXNativeTarget "LittleYellowManUITests" */;
+			buildPhases = (
+				5CDC55881F170F7000BA562F /* Sources */,
+				5CDC55891F170F7000BA562F /* Frameworks */,
+				5CDC558A1F170F7000BA562F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDC558E1F170F7000BA562F /* PBXTargetDependency */,
+			);
+			name = LittleYellowManUITests;
+			productName = LittleYellowManUITests;
+			productReference = 5CDC558C1F170F7000BA562F /* LittleYellowManUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CDC55601F170F7000BA562F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RenJiee;
+				TargetAttributes = {
+					5CDC55671F170F7000BA562F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6NSCZPVHD4;
+						ProvisioningStyle = Automatic;
+					};
+					5CDC55801F170F7000BA562F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6NSCZPVHD4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CDC55671F170F7000BA562F;
+					};
+					5CDC558B1F170F7000BA562F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6NSCZPVHD4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CDC55671F170F7000BA562F;
+					};
+				};
+			};
+			buildConfigurationList = 5CDC55631F170F7000BA562F /* Build configuration list for PBXProject "LittleYellowMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CDC555F1F170F7000BA562F;
+			productRefGroup = 5CDC55691F170F7000BA562F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CDC55671F170F7000BA562F /* LittleYellowMan */,
+				5CDC55801F170F7000BA562F /* LittleYellowManTests */,
+				5CDC558B1F170F7000BA562F /* LittleYellowManUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDC55661F170F7000BA562F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDC557B1F170F7000BA562F /* LaunchScreen.storyboard in Resources */,
+				5CDC55781F170F7000BA562F /* Assets.xcassets in Resources */,
+				5CDC55761F170F7000BA562F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDC557F1F170F7000BA562F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDC558A1F170F7000BA562F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CDC55641F170F7000BA562F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDC55731F170F7000BA562F /* ViewController.m in Sources */,
+				5CDC55701F170F7000BA562F /* AppDelegate.m in Sources */,
+				5CECEDDC1F186E5D00D9F8BD /* FaceView.m in Sources */,
+				5CDC556D1F170F7000BA562F /* main.m in Sources */,
+				5CECEDD91F186D9500D9F8BD /* EyesImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDC557D1F170F7000BA562F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDC55861F170F7000BA562F /* LittleYellowManTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDC55881F170F7000BA562F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDC55911F170F7000BA562F /* LittleYellowManUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CDC55831F170F7000BA562F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDC55671F170F7000BA562F /* LittleYellowMan */;
+			targetProxy = 5CDC55821F170F7000BA562F /* PBXContainerItemProxy */;
+		};
+		5CDC558E1F170F7000BA562F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CDC55671F170F7000BA562F /* LittleYellowMan */;
+			targetProxy = 5CDC558D1F170F7000BA562F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CDC55741F170F7000BA562F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDC55751F170F7000BA562F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CDC55791F170F7000BA562F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CDC557A1F170F7000BA562F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CDC55931F170F7000BA562F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CDC55941F170F7000BA562F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CDC55961F170F7000BA562F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = LittleYellowMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.LittleYellowMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CDC55971F170F7000BA562F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = LittleYellowMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.LittleYellowMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CDC55991F170F7000BA562F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = LittleYellowManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.LittleYellowManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleYellowMan.app/LittleYellowMan";
+			};
+			name = Debug;
+		};
+		5CDC559A1F170F7000BA562F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = LittleYellowManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.LittleYellowManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleYellowMan.app/LittleYellowMan";
+			};
+			name = Release;
+		};
+		5CDC559C1F170F7000BA562F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = LittleYellowManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.LittleYellowManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LittleYellowMan;
+			};
+			name = Debug;
+		};
+		5CDC559D1F170F7000BA562F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = LittleYellowManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.LittleYellowManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LittleYellowMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CDC55631F170F7000BA562F /* Build configuration list for PBXProject "LittleYellowMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDC55931F170F7000BA562F /* Debug */,
+				5CDC55941F170F7000BA562F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDC55951F170F7000BA562F /* Build configuration list for PBXNativeTarget "LittleYellowMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDC55961F170F7000BA562F /* Debug */,
+				5CDC55971F170F7000BA562F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDC55981F170F7000BA562F /* Build configuration list for PBXNativeTarget "LittleYellowManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDC55991F170F7000BA562F /* Debug */,
+				5CDC559A1F170F7000BA562F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CDC559B1F170F7000BA562F /* Build configuration list for PBXNativeTarget "LittleYellowManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CDC559C1F170F7000BA562F /* Debug */,
+				5CDC559D1F170F7000BA562F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CDC55601F170F7000BA562F /* Project object */;
+}
